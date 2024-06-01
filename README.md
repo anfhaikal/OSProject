@@ -345,20 +345,20 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14118.8 avail Mem
 
 10. Run the command **uname -a**. ***(1 mark)*** __Linux codespaces-b4dbcf 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux__.
 
-11. What is the available free memory in the system. ***(1 mark)*** __Answer in free -h: 13Gi__.
+11. What is the available free memory in the system. ***(1 mark)*** __ *Answer obtained from Question 7 free -h:* 13Gi__.
 
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Answer in df under /workspace: 20807636__.
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** __ *Answer obtained from Question 3 df under /workspace:* 20807636__.
 
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __*Answer in uname -a*
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __*Answer obtained from uname -a*
 Version: 6.5.0-1021-azure , Hardware: x86_64__.
 
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __ls: lists files and directories, ls -asl: lists all files and directories with detailed info__.
 
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Answer in Question 8: 2560 4K pages__.
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __*Answer obtained from Question 8:* 2560 4K pages__.
 
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Answer in Question 8: cpu MHz         : 2761.935__.
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __*Answer obtained from Question 8:* cpu MHz         : 2761.935__.
 
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __2338__.
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __*Answer obtained from Question 9:* 2338__.
 
 ## Running your own container instance.
 
