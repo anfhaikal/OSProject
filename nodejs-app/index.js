@@ -23,7 +23,7 @@ connection.connect((err) => {
 
 // Define a route to get a random row
 app.get('/random', (req, res) => {
-  const query = 'SELECT * FROM mytable ORDER BY RAND() LIMIT 1';
+  const query = 'SELECT * FROM mydatabase.mytable ORDER BY RAND() LIMIT 1';
   connection.query(query, (err, results) => {
     if (err) {
       console.error('Error executing query:', err);
