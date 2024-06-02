@@ -15,3 +15,7 @@ COPY . .
 
 # Run the web service on container startup
 CMD [ "node", "index.js" ]
+
+FROM ubuntu:latest
+RUN apt-get update && apt-get install -y nano
+
