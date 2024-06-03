@@ -1,6 +1,8 @@
 # Use the official Node.js image
 FROM node:14
 
+RUN apt-get update && apt-get install -y nano
+
 # Create and change to the app directory
 WORKDIR /usr/src/app
 
@@ -16,6 +18,6 @@ COPY . .
 # Run the web service on container startup
 CMD [ "node", "index.js" ]
 
-FROM ubuntu:latest
-RUN apt-get update && apt-get install -y nano
+
+
 
