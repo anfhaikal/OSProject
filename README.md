@@ -76,8 +76,15 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** __/workspace/OSProject__.
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** __root:x:0:0:root:/root:/bin/bash
+1. Run the command **pwd** . ***(1 mark)*** __
+```bash
+/workspace/OSProject
+```
+__.
+
+2. Run the command **cat /etc/passwd** . ***(1 mark)*** __
+```bash
+root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
 sys:x:3:3:sys:/dev:/usr/sbin/nologin
@@ -101,7 +108,9 @@ systemd-network:x:102:103:systemd Network Management,,,:/run/systemd:/usr/sbin/n
 systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
 messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
 codespace:x:1000:1000::/home/codespace:/bin/bash
-sshd:x:105:65534::/run/sshd:/usr/sbin/nologin__.
+sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
+```
+__.
 
 3. Run the command **df** . ***(1 mark)*** __
 ```bash
@@ -209,20 +218,34 @@ __.
 4664    .__.
 ```
 
-5. Run the command **ls** . ***(1 mark)*** __README.md  images__.
+5. Run the command **ls** . ***(1 mark)*** __
+```bash
+README.md  images
+```
+__.
 
-6. Run the command **ls -asl** . ***(1 mark)*** __total 40
+6. Run the command **ls -asl** . ***(1 mark)*** __
+```bash
+total 40
  4 drwxrwxrwx+ 4 codespace root  4096 Jun  1 02:51 .
  4 drwxr-xrwx+ 5 codespace root  4096 Jun  1 02:51 ..
  4 drwxrwxrwx+ 9 codespace root  4096 Jun  1 02:55 .git
 24 -rw-rw-rw-  1 codespace root 21720 Jun  1 03:02 README.md
- 4 drwxrwxrwx+ 2 codespace root  4096 Jun  1 02:51 images__.
+ 4 drwxrwxrwx+ 2 codespace root  4096 Jun  1 02:51 images
+ ```
+ __.
 
-7. Run the command **free -h** . ***(1 mark)*** __              total        used        free      shared  buff/cache   available
-                                                Mem:           15Gi       1.5Gi       4.8Gi       1.0Mi       9.4Gi        13Gi
-                                                Swap:            0B          0B          0B__.
+7. Run the command **free -h** . ***(1 mark)*** __              
+```bash
+total        used        free      shared  buff/cache   available
+Mem:           15Gi       1.5Gi       4.8Gi       1.0Mi       9.4Gi        13Gi
+Swap:            0B          0B          0B
+```
+__.
 
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __processor       : 0
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __
+```bash
+processor       : 0
 vendor_id       : AuthenticAMD
 cpu family      : 25
 model           : 1
@@ -332,9 +355,13 @@ TLB size        : 2560 4K pages
 clflush size    : 64
 cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
-power management:__.
+power management:
+```
+__.
 
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __top - 03:05:16 up  1:43,  0 users,  load average: 0.17, 0.21, 0.16
+9. Run the command **top** and type **q** to quit. ***(1 mark)*** __
+```bash
+top - 03:05:16 up  1:43,  0 users,  load average: 0.17, 0.21, 0.16
 Tasks:  17 total,   1 running,  16 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  1.1 us,  1.4 sy,  0.0 ni, 97.3 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
 MiB Mem :  15981.1 total,   4856.4 free,   1514.7 used,   9610.0 buff/cache
@@ -348,24 +375,52 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14118.8 avail Mem
      48 root      20   0   12196   3352   2432 S   0.0   0.0   0:00.00 sshd                                                                                                                                               
     949 root      20   0 2131152  89252  52480 S   0.0   0.5   0:00.59 dockerd                                                                                                                                            
     958 root      20   0 1872396  47276  29952 S   0.0   0.3   0:01.14 containerd                                                                                                                                         
-   1679 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh__.
+   1679 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh
+```
 
-10. Run the command **uname -a**. ***(1 mark)*** __Linux codespaces-b4dbcf 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux__.
 
-11. What is the available free memory in the system. ***(1 mark)*** __ *Answer obtained from Question 7 free -h:* 13Gi__.
+10. Run the command **uname -a**. ***(1 mark)***
+```bash
+Linux codespaces-b4dbcf 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+```
 
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __ *Answer obtained from Question 3 df under /workspace:* 20807636__.
 
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __*Answer obtained from uname -a*
-Version: 6.5.0-1021-azure , Hardware: x86_64__.
+11. What is the available free memory in the system. ***(1 mark)***
+```bash
+Answer obtained from Question 7 free -h: 13Gi
+```
 
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __ls: lists files and directories, ls -asl: lists all files and directories with detailed info__.
 
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __*Answer obtained from Question 8:* 2560 4K pages__.
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** __ 
+```bash
+Answer obtained from Question 3 df under /workspace: 20807636
+```
 
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __*Answer obtained from Question 8:* cpu MHz         : 2761.935__.
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __
+```bash
+Answer obtained from uname -a:
+Version: 6.5.0-1021-azure , Hardware: x86_64
+```
 
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __*Answer obtained from Question 9:* 2338__.
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __
+```bash
+ls: lists files and directories, ls -asl: lists all files and directories with detailed info
+```
+
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __
+```bash
+Answer obtained from Question 8:* 2560 4K pages
+```
+
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __
+```bash
+Answer obtained from Question 8: cpu MHz         : 2761.935
+```
+
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __
+```bash
+Answer obtained from Question 9: 2338
+```
 
 ## Running your own container instance.
 
