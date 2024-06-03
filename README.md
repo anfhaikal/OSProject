@@ -103,13 +103,17 @@ messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
 codespace:x:1000:1000::/home/codespace:/bin/bash
 sshd:x:105:65534::/run/sshd:/usr/sbin/nologin__.
 
-3. Run the command **df** . ***(1 mark)*** __Filesystem     1K-blocks     Used Available Use% Mounted on
-                                            overlay         32847680 10345948  20807636  34% /
-                                            tmpfs              65536        0     65536   0% /dev
-                                            shm                65536        8     65528   1% /dev/shm
-                                            /dev/root       30298176 24197376   6084416  80% /vscode
-                                            /dev/loop3      32847680 10345948  20807636  34% /workspaces
-                                            /dev/sdb1      123266624       92 116958796   1% /tmp__.
+3. Run the command **df** . ***(1 mark)*** __
+```bash
+Filesystem     1K-blocks     Used Available Use% Mounted on
+overlay         32847680 10345948  20807636  34% /
+tmpfs              65536        0     65536   0% /dev
+shm                65536        8     65528   1% /dev/shm
+/dev/root       30298176 24197376   6084416  80% /vscode
+/dev/loop3      32847680 10345948  20807636  34% /workspaces
+/dev/sdb1      123266624       92 116958796   1% /tmp
+```
+__.
 
 4. Run the command **du** . ***(1 mark)*** __
 ```bash
