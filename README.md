@@ -111,7 +111,9 @@ sshd:x:105:65534::/run/sshd:/usr/sbin/nologin__.
                                             /dev/loop3      32847680 10345948  20807636  34% /workspaces
                                             /dev/sdb1      123266624       92 116958796   1% /tmp__.
 
-4. Run the command **du** . ***(1 mark)*** __1972    ./images
+4. Run the command **du** . ***(1 mark)*** __
+```bash
+1972    ./images
 4       ./.git/refs/tags
 12      ./.git/refs/remotes/origin
 16      ./.git/refs/remotes
@@ -201,6 +203,7 @@ sshd:x:105:65534::/run/sshd:/usr/sbin/nologin__.
 8       ./.git/info
 2668    ./.git
 4664    .__.
+```
 
 5. Run the command **ls** . ***(1 mark)*** __README.md  images__.
 
