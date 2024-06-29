@@ -807,6 +807,10 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 1. What is the output of step 5 above, explain the error? ***(1 mark)*** 
 ```bash
 There is an error message indicating that the Node.js application cannot connect to the MySQL database. This is because the two containers are on separate networks (mysqlnet and nodejsnet), preventing them from communicating with each other.
+
+Checking the Node-js Container logs, there are also a few errors with code :
+1. code: 'ENOTFOUND'
+2. code: 'ER_NOT_SUPPORTED_AUTH_MODE'
 ```
 2. Show the instruction needed to make this work. ***(1 mark)*** 
 ```bash
