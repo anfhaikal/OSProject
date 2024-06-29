@@ -547,10 +547,12 @@ __.
 
 2. What port is the apache web server running. ***(1 mark)*** __
 
-Port 80
+*Port 80*
 
-__.
-3. What port is open for http protocol on the host machine? ***(1 mark)*** __Port 8080__.
+
+3. What port is open for http protocol on the host machine? ***(1 mark)*** __
+
+*Port 8080*
 
 ## Create SUB Networks
 
