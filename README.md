@@ -645,17 +645,23 @@ docker exec c1 ping c2
 ```
 ***Questions:***
 
-1. Are you able to ping? Show your output . ***(1 mark)*** __YES, Output:
+1. Are you able to ping? Show your output . ***(1 mark)*** 
+```bash
+YES, Output:
 PING c2 (172.20.0.3): 56 data bytes
 64 bytes from 172.20.0.3: seq=0 ttl=64 time=0.202 ms
 64 bytes from 172.20.0.3: seq=1 ttl=64 time=0.068 ms
 64 bytes from 172.20.0.3: seq=2 ttl=64 time=0.059 ms
 64 bytes from 172.20.0.3: seq=3 ttl=64 time=0.067 ms
 64 bytes from 172.20.0.3: seq=4 ttl=64 time=0.076 ms
-64 bytes from 172.20.0.3: seq=5 ttl=64 time=0.075 ms__.
+64 bytes from 172.20.0.3: seq=5 ttl=64 time=0.075 ms
+```
 
-2. What is different from the previous ping in the section above? ***(1 mark)*** __In previous ping, both c1 and c2 were in separate networks and they were not able to communicate directly with each other because they were in different subnetworks.
-In this section, "bridgenet" Docker network is created which connects c1 and c2 so that both of them would be able to communicate.__.
+2. What is different from the previous ping in the section above? ***(1 mark)***
+```bash
+In previous ping, both c1 and c2 were in separate networks and they were not able to communicate directly with each other because they were in different subnetworks.
+In this section, "bridgenet" Docker network is created which connects c1 and c2 so that both of them would be able to communicate.
+```
 
 ## Intermediate Level (10 marks bonus)
 
