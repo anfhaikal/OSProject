@@ -621,14 +621,20 @@ c60d8b1b3ef2   rednet    bridge    local
 
 3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** __
 ```bash
-***C1 GATEWAY: "172.18.0.1" , 
-C2 GATEWAY: "172.19.0.1"***
+C1 GATEWAY: "172.18.0.1" , 
+C2 GATEWAY: "172.19.0.1"
 ```
 
-4. What is the network address for the running container c1 and c2? ***(1 mark)*** __ NETWORK ADDRESS C1: "172.18.0.2" , C2: "172.19.0.2" __.
+4. What is the network address for the running container c1 and c2? ***(1 mark)*** __
+```bash
+NETWORK ADDRESS C1: "172.18.0.2" , 
+NETWORK ADDRESS C2: "172.19.0.2" 
+```
 
-5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)*** __ping: bad address 'c2'__.
-
+5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
+```bash
+ping: bad address 'c2
+```
 ## Bridging two SUB Networks
 1. Let's try this again by creating a network to bridge the two containers in the two subnetworks
 ```
