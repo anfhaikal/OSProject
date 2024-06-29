@@ -444,7 +444,8 @@ Answer obtained from Question 8: cpu MHz         : 2761.935
 
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __
 ```bash
-Answer obtained from Question 9: 2338
+PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                                                            
+2338 codespa+  20   0   21.1g 330532  46336 S   2.0   2.0   0:30.14 node 
 ```
 
 ## Running your own container instance.
