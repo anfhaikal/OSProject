@@ -32,7 +32,7 @@ https://github.com/anfhaikal/OSProject
 
 2. How many files and folders are in this repository. ***(1 mark)*** 
 
-** There are 1 folder and 7 files (1 in main , 6 in a folder) **
+*** There are 1 folder and 7 files (1 in main , 6 in a folder)***
 
 
 ## Exploring github codespaces
