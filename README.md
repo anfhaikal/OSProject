@@ -806,10 +806,15 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 1. What is the output of step 5 above, explain the error? ***(1 mark)*** 
 ```bash
-The output of step 5 will likely be an error message indicating that the Node.js application cannot connect to the MySQL database. This is because the two containers are on separate networks (mysqlnet and nodejsnet), preventing them from communicating with each other.
+There is an error message indicating that the Node.js application cannot connect to the MySQL database. This is because the two containers are on separate networks (mysqlnet and nodejsnet), preventing them from communicating with each other.
 ```
-2. Show the instruction needed to make this work. ***(1 mark)*** __Fill answer here__.
-
+2. Show the instruction needed to make this work. ***(1 mark)*** 
+```bash
+To make it works, there are a few steps:
+1. Create a common network
+2. Connect MySQL container to the common network
+3. Connect Node.js container to the common network
+```
 
 
 ## What to submit
