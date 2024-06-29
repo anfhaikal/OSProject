@@ -547,12 +547,12 @@ __.
 
 2. What port is the apache web server running. ***(1 mark)*** __
 
-*Port 80*
+***Port 80***
 
 
 3. What port is open for http protocol on the host machine? ***(1 mark)*** __
 
-*Port 8080*
+***Port 8080***
 
 ## Create SUB Networks
 
@@ -571,17 +571,28 @@ docker run -itd --net rednet --name c2 busybox sh
 ```
 ***Questions:***
 
-1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __Busybox: a lightweight and versatile executable that combines tiny versions of common UNIX utilities into a single small executable.
---name: is a command switch in Docker used to assign name to a container__.
+1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __
+```bash
+Busybox: a lightweight and versatile executable that combines tiny versions of common UNIX utilities into a single small executable.
+--name: is a command switch in Docker used to assign name to a container
+```
 
-2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)*** __NETWORK ID     NAME      DRIVER    SCOPE
+
+2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)*** __
+```bash
+NETWORK ID     NAME      DRIVER    SCOPE
 855134178df0   bluenet   bridge    local
 ba44e9b72f50   bridge    bridge    local
 2788f48bb109   host      host      local
 c9bc2b29d1d1   none      null      local
-c60d8b1b3ef2   rednet    bridge    local__.
+c60d8b1b3ef2   rednet    bridge    local
+```
 
-3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** __C1 GATEWAY: "172.18.0.1" , C2 GATEWAY: "172.19.0.1"__.
+3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** __
+```bash
+***C1 GATEWAY: "172.18.0.1" , 
+C2 GATEWAY: "172.19.0.1"***
+```
 
 4. What is the network address for the running container c1 and c2? ***(1 mark)*** __ NETWORK ADDRESS C1: "172.18.0.2" , C2: "172.19.0.2" __.
 
