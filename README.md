@@ -65,11 +65,11 @@ https://github.com/anfhaikal/OSProject
 ***Questions:***
 
 1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** 
-
+```bash
 **Ubuntu Linux**
-
+```
 2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** 
-
+```bash
 **Option 1:**
 
 Cores: 2 cores
@@ -81,11 +81,11 @@ Storage: 32 GB
 Cores: Up to 32 cores
 RAM: Up to 64 GB
 Storage: Up to 128 GB
-
+```
 3. Why must we commit and sync our current work on source control? ***(1 mark)*** 
-
+```bash
 **To make sure that our local repository changes are updated in the source control and allows keep our local repository up to date with the latest changes from other contributors.**
-
+```
 ## Exploring the Terminal
 
 1. Look at the TERMINAL tab. Explore and run commands according to the questions below. 
