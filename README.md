@@ -24,8 +24,15 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __Fill answer here__.
-2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+1. What is the link of the fork OSProject in your repository. ***(1 mark)***
+```bash
+https://github.com/anfhaikal/OSProject
+```
+
+
+2. How many files and folders are in this repository. ***(1 mark)*** 
+
+** There are 1 folder and 7 files (1 in main , 6 in a folder) **
 
 
 ## Exploring github codespaces
