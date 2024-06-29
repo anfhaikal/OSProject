@@ -811,6 +811,7 @@ There is an error message indicating that the Node.js application cannot connect
 Checking the Node-js Container logs, there are also a few errors with code :
 1. code: 'ENOTFOUND'
 2. code: 'ER_NOT_SUPPORTED_AUTH_MODE'
+3. code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR
 ```
 2. Show the instruction needed to make this work. ***(1 mark)*** 
 ```bash
